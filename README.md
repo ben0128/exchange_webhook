@@ -1,16 +1,29 @@
 # 股票交易自動化系統
 
-這是一個使用 Python、MongoDB 和其他工具實現的股票交易自動化系統。
+這是一個使用 Python、MongoDB 會自動抓取yahoo finance上的股價資訊，並將mongodb中的訂單取出修改成交狀態的程式。
 
+## 目錄
+
+- [成品 DEMO](https://exchange-frontend-tawny.vercel.app/auth)
+- [前端 Github (exchange_frontend)](https://github.com/ben0128/exchange_frontend)
+- [後端 Github (exchange_backend)](https://github.com/ben0128/exchange_backend)
+- [爬蟲 Github (exchange_webhook)](https://github.com/ben0128/exchange_webhook)
+- [爬蟲 GoogleColab](https://colab.research.google.com/drive/17FRMISQP6yoO30lUh37KHygg6OfTRg3k?hl=zh-tw#scrollTo=jHpwx_5cW_SB)
+
+### Download Project
+
+```
+git clone https://github.com/ben0128/exchange_webhook.git
+```
 ## 目錄
 
 - [股票交易自動化系統](#股票交易自動化系統)
   - [目錄](#目錄)
+    - [Download Project](#download-project)
+  - [目錄](#目錄-1)
   - [安裝](#安裝)
   - [使用方法](#使用方法)
   - [功能](#功能)
-  - [貢獻](#貢獻)
-  - [授權](#授權)
 
 ## 安裝
 
@@ -54,10 +67,3 @@
 - 使用 MongoDB 作為數據庫來存儲訂單和用戶資訊。
 - 使用異步 I/O 和排程來自動執行限價訂單。
 
-## 貢獻
-
-如果您想為這個專案作出貢獻，請閱讀 [CONTRIBUTING.md](CONTRIBUTING.md)。
-
-## 授權
-
-該專案使用 ISC 授權，詳情請查看 [LICENSE.md](LICENSE.md)。
